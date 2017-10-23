@@ -1,0 +1,61 @@
+=t-newt parm=(   )
+lab1
+v7-238
+
+read comp
+
+   uo2 1  1.0 293.0 92234 0.5 92235 5.0 92238 94.5 end
+ zirc4 2  1.0  end
+   h20 3 den=0.700000 1.0  end
+
+end comp
+
+
+read celldata
+
+latticecell squarepitch hpitch 0.7 3 fuelr=0.5 1 cladr=0.55 2 end
+
+end celldata
+
+
+read model
+title-goes-here
+
+read parameters
+
+' TODO: define parameters
+
+end parameters
+
+
+read materials
+
+  mix=1 end
+
+' TODO: define materials
+
+end materials
+
+
+read geometry
+
+global unit 1
+
+' TODO: define global unit here
+
+media 1 1 1
+
+
+boundary 1 2 2
+
+
+
+' TODO: add units below
+
+end geometry
+
+
+end model
+
+
+end
